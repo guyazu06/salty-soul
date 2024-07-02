@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fish2">
+    <include
+        android:id="@+id/include"
+        layout="@layout/toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="216dp"
+        android:layout_height="327dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.321"
+        app:srcCompat="@drawable/fish3" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="409dp"
+        android:layout_height="177dp"
+        android:fontFamily="serif"
+        android:text="הטווין הזה של אלמנט הוא גלשן כל כך כייף שיעוף לכם המח! סאשן אחד ולא תצליחו לחכות עד ששוב יעלה הים. הוא מעוצב ככה שיש לו אווטליין קלאסי משולב על תחתית מודרנית ועובי ריילים מודרניים מה שמייצר גלשן מאוד מהיר עם המון גלייד וכניסה קלה לגל, יחד עם יכולת סיבוב קטלנית שלא מביישת את השורטים בליין-אפ. בקיצור הגלשן המושלם במחיר שלא קשור לעולם. תהנו מהקיץ כי מה זה גלישה אם לא לחידה קטנה של אושר. ומה זה טווין אם לא הכלי לחוד  איתו. הגלשן בנוי מליבת אפוקסי עם שידרית מעץ, עטוף בשכבות פיברגלס עם רזין אפוקסי בעל פיגמנט."
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.837" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="92dp"
+        android:layout_height="51dp"
+        android:fontFamily="serif"
+        android:text="מחיר הגלשן : 2000 שח"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.981"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.958" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="54dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/blue"
+        android:onClick="OnBack"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01"
+        app:srcCompat="@drawable/backarrow" />
+</androidx.constraintlayout.widget.ConstraintLayout>

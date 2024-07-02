@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Long1">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="164dp"
+        android:layout_height="347dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/include"
+        app:layout_constraintVertical_bias="0.33"
+        app:srcCompat="@drawable/long1" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="390dp"
+        android:layout_height="118dp"
+        android:fontFamily="serif"
+        android:text="אם אתם אולדסקול ומחפשים סטייל הגעתם למקום הנכון!  ה CHOPPED LOG של ALOHA  לוג בעל אווטליין מסורתי קלאסי  עוצב בשביל גלייד וריחוף בין סאקשנים ועל הגל.  שייפ צובר מהירות ובקלילות, בעל חתירה וכניסה קלה לגל,  המאפשר גם פניות ותחושת פיווט  והכי חשוב בלוג קלאסי הנותן נוזרייד מצוין  תנאים אידיאלים לגלשן בפוינט או ביץ ברייק נקי אך יעבוד בכל ים."
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.794" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="87dp"
+        android:layout_height="45dp"
+        android:fontFamily="serif"
+        android:text="מחיר הגלשן: 5800 שח"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.935"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.916" />
+
+    <ImageButton
+        android:id="@+id/Battery"
+        android:layout_width="35dp"
+        android:layout_height="38dp"
+        android:background="@color/white"
+        android:onClick="OnBack"
+        android:scaleType="fitCenter"
+        android:backgroundTint="@color/blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024"
+        app:srcCompat="@drawable/backarrow" />
+</androidx.constraintlayout.widget.ConstraintLayout>

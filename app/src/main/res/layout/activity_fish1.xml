@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fish1"
+   >
+    <include
+        android:id="@+id/include"
+        layout="@layout/toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="198dp"
+        android:layout_height="347dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25"
+        app:srcCompat="@drawable/fish1" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="96dp"
+        android:layout_height="53dp"
+        android:fontFamily="serif"
+        android:text="מחיר הגלשן: 4200 שח"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.821" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="409dp"
+        android:layout_height="178dp"
+        android:fontFamily="serif"
+        android:text="ה-Tropical Keel הוא דגם שעוצב יחד עם Jyoti Walker.  הגלשן הזה קיבל הרבה מהסטייל והסגנון גלישה של Jyoti Walker  והוא מורגש בקו המאוד מסורתי של הגלשן מה Outline שנות ה 70 שלו ועד הריילים שלו.  הגלשן הזה יגרום לכם לרצות ללכת לגלוש גם בים של 30 בקיץ, פשוט כיף."
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.817" />
+
+    <ImageButton
+        android:id="@+id/Battery"
+        android:layout_width="35dp"
+        android:layout_height="38dp"
+        android:background="@color/white"
+        android:onClick="OnBack"
+        android:scaleType="fitCenter"
+        android:backgroundTint="@color/blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024"
+        app:srcCompat="@drawable/backarrow" />
+</androidx.constraintlayout.widget.ConstraintLayout>

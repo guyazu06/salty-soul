@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Short2">
+    <include
+        android:id="@+id/include"
+        layout="@layout/toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="157dp"
+        android:layout_height="258dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/include"
+        app:layout_constraintVertical_bias="0.295"
+        app:srcCompat="@drawable/short2" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="403dp"
+        android:layout_height="281dp"
+        android:fontFamily="serif"
+        android:text="כשרוצים שורט לכל יום ומתכוונים לכל יום מיום קיץ של 30
+לסערות המוגזמות של החורף ולכל מה ששם בין לבין.
+תכירו את ה CHURRO 2 של צ’ילי.
+כשחושבים על שורט בצורה הכי סלחנית ועוקצנית שאפשר לבקש לכל יום של גלישה!
+בעל אווטליין קלאסי עם טוויסט קטן במבנה משורט קלאסי,
+עם נקודת רוחב במרכז הגלשן וירידה לזנב סקוואש מעוגל מעט רחב המאפשר ריחוף בקטעים מתים ושטוחים של הגל.
+בעל רוקר נמוך-מדיום בכניסה לאפשר חתירה קלה וטובה ועם רוקר יציאה מודרני המייצר מהירות בגלישת “down the line”.
+לגלשן סינגל קונקייב העובר לדאבל עדין שממשיך עד סוף הגלשן המאפשר לגלשן לעבוד ולהיות סלחן ועוקצני בכל תנאי הים.
+הדגם הזה נוצר כחלק מהפרויקט של צ’ילי Project Black RD,
+בזמן הפרויקט צ’ילי מצאו שהחרב האידיאלית לגלשן היא חרב אולאראונד לא בעלת upright יותר מידי או rake קיצוני (לדוגמא הם נתנו את FUTURES F6).
+מושלם לגולש שמחפש שורט לכל יום מגלי הקיץ הקטנים לגלי הסערות ולגלים שמחכים לכם בטיולים בקיצור גלשן לכל יום שרק תחשבו עליו."
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.884" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="87dp"
+        android:layout_height="45dp"
+        android:fontFamily="serif"
+        android:text="מחיר הגלשן: 3800 שח"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.975"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.989" />
+
+    <ImageButton
+        android:id="@+id/Battery"
+        android:layout_width="35dp"
+        android:layout_height="38dp"
+        android:background="@color/white"
+        android:onClick="OnBack"
+        android:scaleType="fitCenter"
+        android:backgroundTint="@color/blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024"
+        app:srcCompat="@drawable/backarrow" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
